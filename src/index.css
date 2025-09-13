@@ -54,8 +54,18 @@ All colors MUST be HSL.
     --status-success: 142 76% 36%;
     --status-warning: 45 93% 47%;
     --status-info: 217 91% 60%;
-
-    --radius: 0.5rem;
+    
+    /* Premium features */
+    --premium-gold: 45 100% 51%;
+    --premium-gold-foreground: 45 20% 15%;
+    --premium-gradient: linear-gradient(135deg, hsl(45 100% 51%), hsl(14 95% 55%));
+    
+    /* Code theme */
+    --code-background: 220 13% 96%;
+    --code-border: 220 13% 87%;
+    --code-text: 215 20% 25%;
+    
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -110,6 +120,11 @@ All colors MUST be HSL.
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    
+    /* Dark mode code theme */
+    --code-background: 240 3.7% 15.9%;
+    --code-border: 240 3.7% 25.9%;
+    --code-text: 240 4.8% 95.9%;
   }
 }
 

@@ -65,6 +65,15 @@ export default {
           warning: "hsl(var(--status-warning))",
           info: "hsl(var(--status-info))",
         },
+        premium: {
+          gold: "hsl(var(--premium-gold))",
+          "gold-foreground": "hsl(var(--premium-gold-foreground))",
+        },
+        code: {
+          background: "hsl(var(--code-background))",
+          border: "hsl(var(--code-border))",
+          text: "hsl(var(--code-text))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
